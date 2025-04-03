@@ -27,7 +27,7 @@ WorkforcePro is a powerful, full-stack employee management system built using **
 
 ### Dashboard
 
-![Dashboard](https://github.com/user-attachments/assets/c5f83ccf-4d67-4237-a72b-aa1c73226db2)
+
 
 ## 📋 Table of Contents
 
@@ -154,5 +154,27 @@ WorkforcePro/
   go get github.com/gin-gonic/gin
 
 
+# WorkForcePro – Full Stack Employee Management System
 
+## 🛠 Tech Stack
+- **Frontend**: React.js (Port 3000)
+- **Backend**: Go (Golang) API (Port 8080)
+- **Database**: MongoDB (Local or Cloud)
+- **DevOps**: Jenkins, Docker, Nginx
+
+## 📦 Features
+- User management (create, update, delete)
+- MongoDB integration
+- REST API in Go
+- React dashboard UI
+- Jenkins pipeline for automated builds
+- Nginx reverse proxy configuration
+
+## 🧪 How to Run
+
+### Backend (Go)
+```bash
+cd backend
+go mod tidy
+go run main.go
 
